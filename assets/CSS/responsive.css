@@ -1,0 +1,95 @@
+/* seção de responsividade do clone do discordia */
+
+/* desktop 1024px e  1440px */
+
+
+@media screen and (min-width: 1024px) and (max-width:1440px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,470px);
+        grid-template-areas: 
+        "header"
+        "main-section-one"
+        "main-section-two"
+        "main-section-three"
+        "main-section-four"
+        "footer";
+        margin:0;
+        padding:0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+
+    }
+    header{
+       grid-area: header;
+       max-width: 100%;
+       max-height:100%;
+    }
+    header img{
+        grid-column: 1;
+        grid-row: 1;
+        max-width: 72%;
+        max-height:100%;
+    }
+
+    header .conteudo{
+        grid-column: 1;
+        grid-row: 1;
+        align-self:center;
+        margin:0 -15rem;
+    }
+    header .conteudo h1{
+        font-size: 1em;
+        font-weight: bold;
+        max-width: 313px;
+        max-height: 112px;
+        color:#FFFFFF;  
+
+    }
+
+    header .conteudo p{
+        max-width: 130rem;
+    }
+
+    /* seção  do conteudo principal  */
+
+
+    /* seção numero um */
+
+    main section{
+        display:grid;
+    }
+
+    main section .seçao-um {
+        grid-area: main-section-one;
+        grid-column: 1/1;
+        grid-row: 1/1;
+        margin:1rem -20rem;
+        
+    }
+
+    main section .seção-um img{
+        width:150%;
+        height:auto;
+    }
+    main section .seçao-dois{
+        grid-area:main-section-two;
+        grid-column: 1/1;
+        grid-row: 1/1;
+    }
+    main section .seçao-três{
+        grid-area:main-section-three;
+        grid-column: 1/1;
+        grid-row: 1/1;
+    }
+    main section .seçao-quatro{
+        grid-area:main-section-four;
+        grid-column: 1/1;
+        grid-row: 1/1;
+    }
+
+    footer{
+        display:grid;
+    }
+}
