@@ -323,17 +323,17 @@ main section .seçao-quatro{
     flex-direction:column;
     position:absolute;
     width:250vh;
-    height:744px;
+    height:46.5rem;
     left:0;
     justify-content: center;
     align-items: center;
-    top:1909px;
+    top:119.3125rem;
     background-color:#F6F6F6;
 
 }
 main section .seçao-quatro img{
     width:46.5rem;
-    height:508px;
+    height:31.75rem;
     order:2;
 
 }
