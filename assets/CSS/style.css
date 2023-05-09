@@ -37,7 +37,7 @@ header{
 }
 header img{
     position: absolute;
-    width: 151.25rem;
+    width: 151.90rem;
     height: 28.6875rem;
     left: 0px;
     top: 0px;
@@ -51,8 +51,8 @@ header .conteudo{
     padding: 0px;
     gap: 24px;
     margin:0 2rem;
-    position: absolute;
-    width: 50.4375rem;
+    position: relative;
+    max-width: 50.4375rem;
     height: 16.875rem;
     left:18.125rem;
     top: 5.875rem;
@@ -73,13 +73,13 @@ header .conteudo h1{
 }
 
 header .conteudo p{
-width:54.1875rem;
+width:34.1875rem;
 height: 4.125rem;
 
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
-font-size: 1.3125rem;
+font-size: 0.825rem;
 line-height: 1.3125rem;
 text-align: center;
 color: #FFFFFF;
@@ -102,38 +102,38 @@ header .conteudo .conteudo-botao{
 
 header .conteudo button{
     background-color: #FFFFFF;
-    border-radius:28px;
-    font-size:16px;
+    border-radius:1.75rem;
+    font-size:1rem;
     font-style:normal;
     font-weight: 400;
     text-transform:capitalize;
     margin:0 1rem;
-    border:1px transparent #FFFFFF;
+    border:0.0625rem transparent #FFFFFF;
     cursor: pointer;
-    -webkit-border-radius:28px;
-    -moz-border-radius:28px;
-    -ms-border-radius:28px;
-    -o-border-radius:28px;
+    -webkit-border-radius:1.75rem;
+    -moz-border-radius:1.75rem;
+    -ms-border-radius:1.75rem;
+    -o-border-radius:1.75rem;
 }
 header .conteudo button.preto{
-    width:281px;
-    height:44px;
+    width:17.5625rem;
+    height:2.75rem;
     background:#23272A;
     color:#FFFFFF;
-    font-size:16px;
-    line-height:22px;
+    font-size:1rem;
+    line-height:1.375rem;
     font-family:"Open Sans";
     
 }
 
 header .conteudo button.branco{
     background-color: #FFFFFF;
-    font-size:16px;
+    font-size:1rem;
     font-style:normal;
     text-align:center;
     line-height: 22px;
-    width:205px;
-    height:44px;
+    width:12.8125rem;
+    height:2.75rem;
     font-family:"Open Sans";
     
 }
