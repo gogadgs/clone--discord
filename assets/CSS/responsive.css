@@ -242,7 +242,7 @@ main section .seçao-três p{
     box-sizing: border-box;
     margin:0;
     padding:0;
-    max-width:740px;
+    max-width:700px;
     min-width: auto;
     max-height: auto;
     min-height: auto;
@@ -250,7 +250,7 @@ main section .seçao-três p{
 
   body{
     display: grid;
-    grid-template-columns: 740px;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(4,480px) 740px 200px;
     grid-area: 
     "header header"
@@ -265,8 +265,10 @@ main section .seçao-três p{
    header{
     display:grid;
     grid-area: header;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     background-image:url("../imagens/Header Background mobile.png");
+    background-size:contain;
+    background-repeat: no-repeat;
   }
    header img{
     display:none;
