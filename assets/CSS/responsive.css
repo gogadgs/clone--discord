@@ -243,7 +243,7 @@ main section .seçao-três p{
     margin:0;
     padding:0;
     max-width:700px;
-    min-width: auto;
+    min-width:auto;
     max-height: auto;
     min-height: auto;
   }
@@ -251,7 +251,7 @@ main section .seçao-três p{
   body{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4,480px) 740px 200px;
+    grid-template-rows: repeat(4,480px) 1210px 200px;
     grid-area: 
     "header header"
     "main section one main section one"
@@ -266,22 +266,104 @@ main section .seçao-três p{
     display:grid;
     grid-area: header;
     grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(4,1fr);
     background-image:url("../imagens/Header Background mobile.png");
-    background-size:contain;
+    background-size:100% 100%;
     background-repeat: no-repeat;
+    min-width:53rem;
+    max-width: 60rem;
+    
   }
    header img{
     display:none;
     
   
   }
-  
-main header .conteudo {
+ header div.conteudo {
+    display:grid;
     grid-area: header;
     grid-column: 1;
     grid-row: 1/6;
+    justify-self: start;
 }
 
 
+
+header .conteudo h1{
+  grid-area:header;
+  grid-column: 1;
+  grid-row: 1/2;
+  min-width:20rem;
+  text-align-last: left;
+  font-size: 3rem;
+  text-align: self;
+  
 }
+header .conteudo p{
+    grid-area: header;
+    display:grid;
+    grid-column: 1;
+    grid-row: 1/12;
+    text-align:left;
+    min-width:10rem;
+    justify-self: self-start;
+    text-align-last: left;
+   
+}
+
+header .conteudo button.preto{
+  grid-area: header;
+  grid-column: 1;
+  grid-row: 7;
+  position: relative;
+  min-width: 100%;
+ 
+}
+header .conteudo button.branco{
+  grid-area: header;
+  grid-column: 1;
+  grid-row: 6;
+  min-width: 100%;
+  
+}
+header .conteudo div.conteudo-botao{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2,1fr);
+  grid-area: header;
+  grid-column: 1;
+  grid-row: 5/12;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+/*  seção do conteudo principal  */
+
+
+main section {
+  display:grid;
+  grid-area: main;
+  grid-column: 1;
+  grid-template-columns: repeat(1fr);
+  grid-template-rows: repeat(1,380px) 1fr 1fr;
+  max-width: 80vw;
+}
+
+
+footer{
+  min-width: 59rem;
+
+}
+footer figure img{
+  min-width: 3rem;
+  min-height: 3rem;
+  position: relative;
+  left:-15rem;
+  
+}
+}
+
+
+
 
