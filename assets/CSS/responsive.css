@@ -254,10 +254,10 @@ main section .seçao-três p{
     grid-template-rows: repeat(4,480px) 1210px 200px;
     grid-area: 
     "header header"
-    "main section one main section one"
-    "main section two main section two"
-    "main section three main section three"
-    "main section four main section four"
+    "main section one"
+    "main section two"
+    "main section three"
+    "main section four"
     "footer footer";
     
 
@@ -299,7 +299,7 @@ header .conteudo h1{
   text-align: self;
   
 }
-header .conteudo p{
+header div.conteudo p{
     grid-area: header;
     display:grid;
     grid-column: 1;
@@ -328,6 +328,7 @@ header .conteudo button.branco{
 }
 header .conteudo div.conteudo-botao{
   display:grid;
+  grid-area: header;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2,1fr);
   grid-area: header;
@@ -339,19 +340,83 @@ header .conteudo div.conteudo-botao{
 }
 
 /*  seção do conteudo principal  */
-
-
-main section {
-  display:grid;
-  grid-area: main;
+main{
+  display: grid;
   grid-column: 1;
-  grid-template-columns: repeat(1fr);
-  grid-template-rows: repeat(1,380px) 1fr 1fr;
-  max-width: 80vw;
+  grid-row: 2;
+  grid-template-columns: 950px;
+  grid-template-rows: repeat(3,480px) 726px;
+}
+
+
+main  section div.seçao-um{
+  display:grid;
+  grid-area:"main section one";
+  grid-column: 1;
+  margin-left:20rem;
+  grid-row: 1;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 150px 100px;
+  align-self: center;
+}
+main section div.seçao-um img{
+  position: absolute;
+  max-width:25rem;
+  max-height:15rem;
+  margin-left: 15rem;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+}
+main section div.seçao-um div.descricao-um {
+  display:grid;
+  grid-area:"main section one";
+  grid-column: 1;
+  grid-row: 2;
+  grid-template-columns: 1fr;
+  grid-template-rows:100px 100px;
+  min-width: 49rem;
+}
+main section div.seçao-um div.descricao-um h1{
+  display: grid;
+  position: relative;
+  margin-top: 1em;
+  grid-area:"main section one";
+  font-size: 24px;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  font-size:1.5rem;
+  min-width: 315px;
+  left: 20rem;
+  line-height: 30px;
+  grid-row-end: 2;
+  max-height: 10rem;
+
+  
+}
+main section div.seçao-um div.descricao-um p{
+  display: grid;
+  margin-top: 1em;
+  position: absolute;
+  left: 24em;
+  font-size: 24px;
+  grid-column-start: 1;
+  grid-area: "main section one";
+  min-width: 378px;
+
+  
 }
 
 
 footer{
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+  grid-template-columns:950px;
+  grid-template-rows: 127px;
   min-width: 59rem;
 
 }
