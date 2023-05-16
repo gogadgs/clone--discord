@@ -206,13 +206,13 @@ main section .seçao-dois p {
   -o-transform:translate(-70%,0%);
 }
 main section .seçao-três img{
-  max-width:25rem;
-  max-height:25rem;
-  transform:translate(-50%,0%);
-  -webkit-transform:translate(-50%,0%);
-  -moz-transform:translate(-50%,0%);
-  -ms-transform:translate(-50%,0%);
-  -o-transform:translate(-50%,0%);
+  max-width: 32rem;
+  max-height: 20rem;
+  transform:translate(-45%,0%);
+  -webkit-transform:translate(-45%,0%);
+  -moz-transform:translate(-45%,0%);
+  -ms-transform:translate(-45%,0%);
+  -o-transform:translate(-45%,0%);
 }
 main section .seçao-três h1{
   transform:translate(-100%,0%);
@@ -229,6 +229,12 @@ main section .seçao-três p{
   -o-transform:translate(-95%,0%);
 }
 
+footer figure img{
+  max-width: 15rem;
+  position:absolute;
+  left:25rem;
+}
+
 }
 
 
@@ -242,8 +248,8 @@ main section .seçao-três p{
     box-sizing: border-box;
     margin:0;
     padding:0;
-    max-width:700px;
-    min-width:auto;
+    max-width:671px;
+    min-width:400px;
     max-height: auto;
     min-height: auto;
   }
@@ -285,6 +291,8 @@ main section .seçao-três p{
     grid-column: 1;
     grid-row: 1/6;
     justify-self: start;
+    left: 23rem;
+    
 }
 
 
@@ -293,7 +301,8 @@ header .conteudo h1{
   grid-area:header;
   grid-column: 1;
   grid-row: 1/2;
-  min-width:20rem;
+  min-width:278px;
+  max-height: 64px;
   text-align-last: left;
   font-size: 3rem;
   text-align: self;
@@ -305,9 +314,13 @@ header div.conteudo p{
     grid-column: 1;
     grid-row: 1/12;
     text-align:left;
-    min-width:10rem;
+    top: 8rem;
+    position: absolute;
+    max-height: 132px;
     justify-self: self-start;
-    text-align-last: left;
+    font-family: 'Open Sans';
+    max-width: 323px;
+    min-width: 155px;
    
 }
 
@@ -316,14 +329,14 @@ header .conteudo button.preto{
   grid-column: 1;
   grid-row: 7;
   position: relative;
-  min-width: 100%;
+  max-width: 100%;
  
 }
 header .conteudo button.branco{
   grid-area: header;
   grid-column: 1;
   grid-row: 6;
-  min-width: 100%;
+  max-width: 100%;
   
 }
 header .conteudo div.conteudo-botao{
@@ -331,11 +344,13 @@ header .conteudo div.conteudo-botao{
   grid-area: header;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2,1fr);
-  grid-area: header;
   grid-column: 1;
   grid-row: 5/12;
   align-items: center;
   justify-content: center;
+  margin-top: 5rem;
+  position: relative;
+    left: -1rem;
  
 }
 
@@ -353,7 +368,7 @@ main  section div.seçao-um{
   display:grid;
   grid-area:"main section one";
   grid-column: 1;
-  margin-left:20rem;
+  margin-left:25rem;
   grid-row: 1;
   grid-template-columns: 1fr;
   grid-template-rows: 200px 150px 100px;
@@ -361,9 +376,9 @@ main  section div.seçao-um{
 }
 main section div.seçao-um img{
   position: absolute;
-  max-width:25rem;
-  max-height:15rem;
-  margin-left: 15rem;
+  max-width:379px;
+  max-height:252px;
+  margin-left: 8.5rem;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
@@ -387,10 +402,8 @@ main section div.seçao-um div.descricao-um h1{
   font-size: 24px;
   grid-column-start: 1;
   grid-row-start: 1;
-  grid-row-end: 1;
-  font-size:1.5rem;
   min-width: 315px;
-  left: 20rem;
+  left: 14rem;
   line-height: 30px;
   grid-row-end: 2;
   max-height: 10rem;
@@ -401,15 +414,191 @@ main section div.seçao-um div.descricao-um p{
   display: grid;
   margin-top: 1em;
   position: absolute;
-  left: 24em;
-  font-size: 24px;
+  left: 28em;
+  font-size: 16px;
   grid-column-start: 1;
   grid-area: "main section one";
-  min-width: 378px;
-
+  min-width: 94px;
+  max-width: 339px;
+  line-height: 22px;
   
 }
 
+
+main  section div.seçao-dois{
+  display:grid;
+  grid-area:"main section two";
+  grid-column: 1;
+  min-width:59rem;
+  grid-row: 1;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 150px 100px;
+  align-self: center;
+}
+main  section div.seçao-dois  img{
+  position: absolute;
+  display:grid;
+  max-width:379px;
+  max-height:252px;
+  margin-left: 3rem;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+}
+main  section div.seçao-dois  div.descricao-dois{
+  display:grid;
+  grid-area:"main section two";
+  grid-column: 1;
+  grid-row: 2;
+  grid-template-columns: 1fr;
+  grid-template-rows:100px 100px;
+  min-width: 59rem;
+}
+main  section div.seçao-dois  div.descricao-dois h1{
+  font-size: 24px;
+  font-weight: 800;
+  font-family: 'Open Sans';
+  display:grid;
+  grid-area:"main section two";
+  grid-column: 1;
+  grid-row: 1;
+  position: absolute;
+  margin-left: 21.5rem;
+ margin-top: 8rem;
+}
+main  section div.seçao-dois  div.descricao-dois p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  display:grid;
+  grid-area:"main section two";
+  grid-column: 1;
+  grid-row: 1;
+  position: absolute;
+  margin-left: 21rem;
+  margin-top: 4rem;
+}
+main section div.seçao-três{
+  display:grid;
+  grid-area:"main section three";
+  grid-column: 1;
+  grid-row: 1;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 150px 100px;
+  align-self: center;
+  min-width:59rem;
+
+}
+main section div.seçao-três img{
+  position: absolute;
+  display:grid;
+  max-width:379px;
+  max-height:252px;
+  margin-left: 8.5rem;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+}
+
+main  section div.seçao-três  div.descricao-três h1{
+  font-size: 24px;
+  font-weight: 800;
+  font-family: 'Open Sans';
+  display:grid;
+  grid-area:"main section three";
+  grid-column: 1;
+  grid-row: 1;
+  position: absolute;
+  margin-left:-6rem;
+  margin-top: 8rem;
+
+
+}
+main  section div.seçao-três  div.descricao-três p{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Open Sans';
+  display:grid;
+  grid-area:"main section three";
+  grid-column: 1;
+  grid-row: 1;
+  position: absolute;
+  margin-left:-7rem;
+  margin-top: 4rem;
+
+}
+
+main section div.seçao-quatro{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 300px 250px 200px;
+  grid-area: "main section four";
+  max-width:59rem;
+  max-height: 120vh;
+  
+}
+main section div.seçao-quatro img{
+  position: absolute;
+  display:grid;
+  max-width:579px;
+  max-height:402px;
+  margin-left: 3rem;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+main  section div.seçao-quatro  div.descricao-quatro h1{
+  font-size: 24px;
+  font-weight: 800;
+  display:grid;
+  grid-area:"main section four";
+  grid-column: 1;
+  grid-row: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  position: absolute;
+  margin-left:21rem;
+  text-align:left;
+  font-family: 'Luckiest Guy';
+  max-width:376px;
+  font-size:32px;
+
+}
+main  section div.seçao-quatro  div.descricao-quatro p{
+  font-size: 16px;
+  font-weight: 500;
+  display:grid;
+  grid-area:"main section four";
+  grid-column: 1;
+  grid-row: 3;
+  position: relative;
+    top: 8rem;
+    left: 21rem;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  max-width: 378px;
+  text-align: left;
+  max-height:110px;
+
+}
+main  section div.seçao-quatro img{
+  position: absolute;
+  display:grid;
+  max-width:579px;
+  max-height:402px;
+  margin-left: 3rem;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  bottom:2rem;
+  left:10rem;
+}
 
 footer{
   display: grid;
