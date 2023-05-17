@@ -275,7 +275,7 @@ footer figure img{
     background-size:100% 100%;
     background-repeat: no-repeat;
     min-width:45rem;
-    max-width: 59rem;
+    max-width: 62rem;
     
   }
    header img{
@@ -370,8 +370,8 @@ main  section div.seçao-um{
   grid-template-columns: 1fr;
   grid-template-rows: 200px 150px 100px;
   align-self: center;
-  min-width: 59rem;
-    left: 0;
+  min-width: 62rem;
+  left: 0;
 }
 main section div.seçao-um img{
   position: absolute;
@@ -430,7 +430,7 @@ main  section div.seçao-dois{
   display:grid;
   grid-area:"main section two";
   grid-column: 1;
-  min-width:59rem;
+  min-width:62rem;
   grid-row: 1;
   grid-template-columns: 1fr;
   grid-template-rows: 200px 150px 100px;
@@ -489,7 +489,7 @@ main section div.seçao-três{
   grid-template-columns: 1fr;
   grid-template-rows: 200px 150px 100px;
   align-self: center;
-  min-width:59rem;
+  min-width:62rem;
 
 }
 main section div.seçao-três img{
@@ -539,7 +539,7 @@ main section div.seçao-quatro{
   grid-template-columns: 1fr;
   grid-template-rows: 300px 250px 200px;
   grid-area: "main section four";
-  max-width:59rem;
+  max-width:62rem;
   max-height: 120vh;
   
 }
@@ -609,7 +609,7 @@ footer{
   grid-row: 1;
   grid-template-columns:950px;
   grid-template-rows: 127px;
-  min-width: 59rem;
+  min-width: 62rem;
 
 }
 footer figure img{
