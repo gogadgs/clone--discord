@@ -59,18 +59,18 @@
       /* seção do conteudo principal */
 
       main section .seçao-um h1{
-        transform:translate(120%,10%)      ;
-        -webkit-transform:translate(120%,10%)      ;
-        -moz-transform:translate(120%,10%)      ;
-        -ms-transform:translate(120%,10%)      ;
-        -o-transform:translate(120%,10%)      ;
+        transform:translate(324%,10%)      ;
+        -webkit-transform:translate(324%,10%)      ;
+        -moz-transform:translate(324%,10%)      ;
+        -ms-transform:translate(324%,10%)      ;
+        -o-transform:translate(324%,10%)      ;
 }
       main section .seçao-um img{
-        transform:translate(50%,10%)      ;
-        -webkit-transform:translate(50%,10%)      ;
-        -moz-transform:translate(50%,10%)      ;
-        -ms-transform:translate(50%,10%)      ;
-        -o-transform:translate(50%,10%)      ;
+        transform:translate(165%,10%)      ;
+        -webkit-transform:translate(165%,10%)      ;
+        -moz-transform:translate(165%,10%)      ;
+        -ms-transform:translate(165%,10%)      ;
+        -o-transform:translate(165%,10%)      ;
 }
 
 
@@ -158,20 +158,20 @@ footer{
 }
 
   main section .seçao-um h1{
-    transform:translate(-10%,0%);
-    -webkit-transform:translate(-10%,0%);
-    -moz-transform:translate(-10%,0%);
-    -ms-transform:translate(-10%,0%);
-    -o-transform:translate(-10%,0%);
+    transform:translate(-109%,0%);
+    -webkit-transform:translate(-109%,0%);
+    -moz-transform:translate(-109%,0%);
+    -ms-transform:translate(-109%,0%);
+    -o-transform:translate(-109%,0%);
 }
 main section .seçao-um img {
   max-width:25rem;
   max-height:25rem;
-  transform:translate(-10%,0%);
-  -webkit-transform:translate(-10%,0%);
-  -moz-transform:translate(-10%,0%);
-  -ms-transform:translate(-10%,0%);
-  -o-transform:translate(-10%,0%);
+  transform:translate(-55%,0%);
+  -webkit-transform:translate(-55%,0%);
+  -moz-transform:translate(-55%,0%);
+  -ms-transform:translate(-55%,0%);
+  -o-transform:translate(-55%,0%);
 }
 
 main section .seçao-um p{
@@ -248,10 +248,8 @@ footer figure img{
     box-sizing: border-box;
     margin:0;
     padding:0;
-    max-width:671px;
-    min-width:400px;
-    max-height: auto;
-    min-height: auto;
+    max-width: 98vw;
+    min-width: 66vh;
   }
 
   body{
@@ -276,8 +274,8 @@ footer figure img{
     background-image:url("../imagens/Header Background mobile.png");
     background-size:100% 100%;
     background-repeat: no-repeat;
-    min-width:53rem;
-    max-width: 60rem;
+    min-width:45rem;
+    max-width: 59rem;
     
   }
    header img{
@@ -368,17 +366,20 @@ main  section div.seçao-um{
   display:grid;
   grid-area:"main section one";
   grid-column: 1;
-  margin-left:25rem;
   grid-row: 1;
   grid-template-columns: 1fr;
   grid-template-rows: 200px 150px 100px;
   align-self: center;
+  min-width: 59rem;
+    left: 0;
 }
 main section div.seçao-um img{
   position: absolute;
   max-width:379px;
   max-height:252px;
-  margin-left: 8.5rem;
+  margin-left: 0;
+  left: 33rem;
+  top: -1rem;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
@@ -397,24 +398,24 @@ main section div.seçao-um div.descricao-um {
 main section div.seçao-um div.descricao-um h1{
   display: grid;
   position: relative;
-  margin-top: 1em;
-  grid-area:"main section one";
+  margin-top: 2em;
+  grid-area: "main section one";
   font-size: 24px;
   grid-column-start: 1;
   grid-row-start: 1;
   min-width: 315px;
-  left: 14rem;
+  left: 38.5rem;
   line-height: 30px;
   grid-row-end: 2;
-  max-height: 10rem;
+  max-height: 4rem;
 
   
 }
 main section div.seçao-um div.descricao-um p{
   display: grid;
-  margin-top: 1em;
+  margin-top: 2em;
   position: absolute;
-  left: 28em;
+  left: 33em;
   font-size: 16px;
   grid-column-start: 1;
   grid-area: "main section one";
@@ -440,7 +441,7 @@ main  section div.seçao-dois  img{
   display:grid;
   max-width:379px;
   max-height:252px;
-  margin-left: 3rem;
+  margin-left: 4rem;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
@@ -460,13 +461,13 @@ main  section div.seçao-dois  div.descricao-dois h1{
   font-size: 24px;
   font-weight: 800;
   font-family: 'Open Sans';
-  display:grid;
-  grid-area:"main section two";
+  display: grid;
+  grid-area: "main section two";
   grid-column: 1;
   grid-row: 1;
   position: absolute;
-  margin-left: 21.5rem;
- margin-top: 8rem;
+  margin-left: 18.5rem;
+  margin-top: 10rem;
 }
 main  section div.seçao-dois  div.descricao-dois p{
   font-size: 16px;
@@ -477,8 +478,8 @@ main  section div.seçao-dois  div.descricao-dois p{
   grid-column: 1;
   grid-row: 1;
   position: absolute;
-  margin-left: 21rem;
-  margin-top: 4rem;
+  margin-left: 18rem;
+  margin-top: 6rem;
 }
 main section div.seçao-três{
   display:grid;
@@ -494,9 +495,10 @@ main section div.seçao-três{
 main section div.seçao-três img{
   position: absolute;
   display:grid;
-  max-width:379px;
-  max-height:252px;
-  margin-left: 8.5rem;
+  max-width: 24rem;
+  max-height: 15rem;
+  top:2rem;
+  margin-left: 16.5rem;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
@@ -513,8 +515,8 @@ main  section div.seçao-três  div.descricao-três h1{
   grid-column: 1;
   grid-row: 1;
   position: absolute;
-  margin-left:-6rem;
-  margin-top: 8rem;
+  margin-left:-6.5rem;
+  margin-top: 11rem;
 
 
 }
@@ -527,8 +529,8 @@ main  section div.seçao-três  div.descricao-três p{
   grid-column: 1;
   grid-row: 1;
   position: absolute;
-  margin-left:-7rem;
-  margin-top: 4rem;
+  margin-left:-8rem;
+  margin-top: 8rem;
 
 }
 
@@ -562,11 +564,12 @@ main  section div.seçao-quatro  div.descricao-quatro h1{
   grid-row-start: 1;
   grid-row-end: 1;
   position: absolute;
-  margin-left:21rem;
+  margin-left:17rem;
   text-align:left;
   font-family: 'Luckiest Guy';
   max-width:376px;
   font-size:32px;
+  top:3rem;
 
 }
 main  section div.seçao-quatro  div.descricao-quatro p{
@@ -577,8 +580,8 @@ main  section div.seçao-quatro  div.descricao-quatro p{
   grid-column: 1;
   grid-row: 3;
   position: relative;
-    top: 8rem;
-    left: 21rem;
+    top: 4rem;
+    left: 17rem;
   grid-row-start: 2;
   grid-row-end: 2;
   max-width: 378px;
@@ -589,15 +592,15 @@ main  section div.seçao-quatro  div.descricao-quatro p{
 main  section div.seçao-quatro img{
   position: absolute;
   display:grid;
-  max-width:579px;
+  max-width:468px;
   max-height:402px;
   margin-left: 3rem;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 3;
   grid-row-end: 3;
-  bottom:2rem;
-  left:10rem;
+  bottom:4rem;
+  left:14rem;
 }
 
 footer{

@@ -175,6 +175,9 @@ main section .seçao-um img{
     width:30rem;
     height:22rem;
     flex: none;
+    position: absolute;
+    left: 22rem;
+    bottom: 3.3rem;
     order: 0;
     flex-grow: 0;
 }
@@ -182,6 +185,7 @@ main section .seçao-um img{
 main section .seçao-um .descricao-um h1{
     display: flex;
     font-family:"Open Sans";
+    position: absolute;
     font-style: bold;
     font-weight:800;
     font-size:2.5rem;
@@ -189,7 +193,7 @@ main section .seçao-um .descricao-um h1{
     text-align: left;
     width:16.875rem;
     height: 23.125rem;
-    left: 38.9375rem;
+    left: 51.9375rem;
     top: 0.625rem;
     margin:0;
     order:0;
