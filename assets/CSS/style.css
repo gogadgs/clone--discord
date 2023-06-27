@@ -172,7 +172,7 @@ top: 31.1875rem;
 
 }
 main section .seçao-um img{
-    width:30rem;
+    max-width:30rem;
     height:22rem;
     flex: none;
     position: absolute;
@@ -238,7 +238,7 @@ main section .seçao-dois img{
     position:absolute;
     left:28rem; 
     margin:0 13rem;
-    width: 607px;
+    max-width: 607px;
     height: 394px;
 }
 main section .seçao-dois .descricao-dois h1{
@@ -288,7 +288,7 @@ main section .seçao-três{
 
 }
 main section .seçao-três img{
-    width:37.9375rem;
+    max-width:37.9375rem;
     height:24.625rem;
     flex:none;
     position:absolute;
@@ -337,7 +337,7 @@ main section .seçao-quatro{
 
 }
 main section .seçao-quatro img{
-    width:46.5rem;
+    max-width:46.5rem;
     height:31.75rem;
     order:2;
 
