@@ -274,8 +274,8 @@ footer figure img{
     background-image:url("../imagens/Header Background mobile.png");
     background-size:100% 100%;
     background-repeat: no-repeat;
-    min-width:100%;
-    max-width: 100%;
+    min-width:9rem;
+    max-width: 23rem;
     
   }
    header img{
