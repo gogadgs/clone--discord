@@ -244,7 +244,9 @@ footer figure img{
 
 /* seção mobile de 320px até 425px */
 @media  screen and (min-width:320px) and (max-width:720px){
-
+  html,body{
+    overflow-x:hidden;
+  }
 
   body{
     display: grid;
@@ -355,7 +357,7 @@ main{
   display: grid;
   grid-column: 1;
   grid-row: 2;
-  grid-template-columns: 950px;
+  grid-template-columns: 320px;
   grid-template-rows: repeat(3,480px) 726px;
 }
 
@@ -436,13 +438,12 @@ main  section div.seçao-dois{
   align-self: center;
 }
 main  section div.seçao-dois  img{
-  position: absolute;
-  display:grid;
-  min-width:10px;
-  max-height:164px;
-  margin-left: -20rem;
-  left:30rem;
-  margin-top:2rem;
+  position: relative;
+  display: grid;
+  min-width: 10px;
+  max-height: 164px;
+  margin: 0;
+  left: 9rem;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
@@ -618,9 +619,9 @@ footer{
   display: grid;
   grid-column: 1;
   grid-row: 1;
-  grid-template-columns:950px;
+  grid-template-columns:320px;
   grid-template-rows: 127px;
-  min-width: 1rem;
+  max-width: 100%;
 
 }
 footer figure img{
