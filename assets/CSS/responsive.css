@@ -254,7 +254,7 @@ footer figure img{
   body{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4,480px);
+    grid-template-rows: repeat(4,640px);
     grid-area: 
     "header header"
     "main section one"
@@ -551,6 +551,7 @@ main section div.seçao-quatro{
   grid-template-rows: 300px 250px 200px;
   grid-area: "main section four";
   max-width: 100%;
+  max-height: 29.2%;
   
 }
 main section div.seçao-quatro img{
@@ -569,7 +570,7 @@ main section div.seçao-quatro img{
     left: 10rem !important;
 }
 main  section div.seçao-quatro  div.descricao-quatro h1{
-  font-size: 18px !important;
+  font-size: 24px !important;
   font-weight: 800;
   display: grid;
   grid-area: "main section four";
@@ -587,7 +588,7 @@ main  section div.seçao-quatro  div.descricao-quatro h1{
 
 }
 main  section div.seçao-quatro  div.descricao-quatro p{
-  font-size: 11px;
+  font-size: 14px;
     font-weight: 500;
     display: grid;
     grid-area: "main section four";
@@ -607,14 +608,14 @@ main  section div.seçao-quatro  div.descricao-quatro p{
 main  section div.seçao-quatro img{
   position: absolute;
   display: grid;
-  max-width: 290px !important;
+  max-width: 90% !important;
   max-height: 300px !important;
   margin-left: 9rem;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 3;
   grid-row-end: 3;
-  bottom: 4rem !important;
+  bottom: 9rem !important;
   left: -8rem !important;
 }
 
