@@ -244,14 +244,17 @@ footer figure img{
 
 /* seção mobile de 320px até 425px */
 @media  screen and (min-width:320px) and (max-width:720px){
+ 
+  
   html,body{
     overflow-x:hidden;
+    overflow-y: scroll;
   }
 
   body{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4,480px) 1210px 200px;
+    grid-template-rows: repeat(4,480px);
     grid-area: 
     "header header"
     "main section one"
