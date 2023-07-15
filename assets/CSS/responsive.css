@@ -482,7 +482,7 @@ main  section div.seçao-dois  div.descricao-dois p{
   grid-area: "main section two";
   grid-column: 1;
   grid-row: 1;
-  left: -27rem;
+  left: -27.5rem;
   min-width: 37px;
   max-width: 251px;
   position: absolute;
@@ -524,7 +524,7 @@ main  section div.seçao-três  div.descricao-três h1{
   grid-column: 1;
   grid-row: 1;
   position: absolute;
-  margin-left: -31rem;
+  margin-left: -30.8rem;
   margin-top: 7rem;
 
 
@@ -538,7 +538,7 @@ main  section div.seçao-três  div.descricao-três p{
   grid-column: 1;
   grid-row: 1;
   position: absolute;
-  margin-left: -35rem;
+  margin-left: -34.5rem;
   margin-top: 4rem;
   max-width: 10px;
   min-width: 260px;
@@ -579,7 +579,7 @@ main  section div.seçao-quatro  div.descricao-quatro h1{
   grid-row-start: 1;
   grid-row-end: 1;
   position: absolute;
-  margin-left: 1rem;
+  margin-left: 2rem;
   text-align: left;
   font-family: 'Luckiest Guy';
   min-width: 40rem;
@@ -596,7 +596,7 @@ main  section div.seçao-quatro  div.descricao-quatro p{
     grid-row: 3;
     position: relative;
     top: 4rem;
-    left: 1rem;
+    left: 2rem;
     right: 2;
     grid-row-end: 2;
     min-width: 85px;
