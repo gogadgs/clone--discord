@@ -158,11 +158,11 @@ footer{
 }
 
   main section .seçao-um h1{
-    transform:translate(-109%,0%);
-    -webkit-transform:translate(-109%,0%);
-    -moz-transform:translate(-109%,0%);
-    -ms-transform:translate(-109%,0%);
-    -o-transform:translate(-109%,0%);
+    transform:translate(-90%,0%);
+    -webkit-transform:translate(-90%,0%);
+    -moz-transform:translate(-90%,0%);
+    -ms-transform:translate(-90%,0%);
+    -o-transform:translate(-90%,0%);
 }
 main section .seçao-um img {
   max-width:25rem;
@@ -175,11 +175,11 @@ main section .seçao-um img {
 }
 
 main section .seçao-um p{
-  transform:translate(-85%,0%);
-  -webkit-transform:translate(-85%,0%);
-  -moz-transform:translate(-85%,0%);
-  -ms-transform:translate(-85%,0%);
-  -o-transform:translate(-85%,0%);
+  transform:translate(-70%,0%);
+  -webkit-transform:translate(-70%,0%);
+  -moz-transform:translate(-70%,0%);
+  -ms-transform:translate(-70%,0%);
+  -o-transform:translate(-70%,0%);
 }
 main section .seçao-dois img {
   max-width:25rem;
