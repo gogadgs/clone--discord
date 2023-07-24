@@ -407,7 +407,7 @@ main section div.seçao-um div.descricao-um h1{
   grid-column-start: 1;
   grid-row-start: 1;
   min-width: 300px;
-  left: 22rem;
+  left: 18rem;
   line-height: 30px;
   grid-row-end: 2;
   max-height: 4rem;
@@ -419,7 +419,7 @@ main section div.seçao-um div.descricao-um p{
   display: grid;
   margin: 0;
   position: absolute;
-  left: 17rem;
+  left: 14rem;
   font-size: 14px;
   grid-column-start: 1;
   grid-area: "main section one";
