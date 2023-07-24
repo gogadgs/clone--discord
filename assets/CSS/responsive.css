@@ -140,12 +140,108 @@ footer{
 
 /* seção desktop 1024px */
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:770px){
   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     max-width:120vw;
+    max-height:121vh;
+  }
+
+  header .conteudo{
+    transform:translate(-30%,-10%)  ;
+    -webkit-transform:translate(-30%,-10%)  ;
+    -moz-transform:translate(-30%,-10%)  ;
+    -ms-transform:translate(-30%,-10%)  ;
+    -o-transform:translate(-30%,-10%)  ;
+}
+
+  main section .seçao-um h1{
+    transform:translate(-90%,0%);
+    -webkit-transform:translate(-90%,0%);
+    -moz-transform:translate(-90%,0%);
+    -ms-transform:translate(-90%,0%);
+    -o-transform:translate(-90%,0%);
+}
+main section .seçao-um img {
+  max-width:25rem;
+  max-height:25rem;
+  transform:translate(-55%,0%);
+  -webkit-transform:translate(-55%,0%);
+  -moz-transform:translate(-55%,0%);
+  -ms-transform:translate(-55%,0%);
+  -o-transform:translate(-55%,0%);
+}
+
+main section .seçao-um p{
+  transform:translate(-70%,0%);
+  -webkit-transform:translate(-70%,0%);
+  -moz-transform:translate(-70%,0%);
+  -ms-transform:translate(-70%,0%);
+  -o-transform:translate(-70%,0%);
+}
+main section .seçao-dois img {
+  max-width:25rem;
+  max-height:25rem;
+  transform:translate(-55%,0%);
+  -webkit-transform:translate(-55%,0%);
+  -moz-transform:translate(-55%,0%);
+  -ms-transform:translate(-55%,0%);
+  -o-transform:translate(-55%,0%);
+}
+main section .seçao-dois h1{
+  transform:translate(-72%,0%) ;
+  -webkit-transform:translate(-72%,0%) ;
+  -moz-transform:translate(-72%,0%) ;
+  -ms-transform:translate(-72%,0%) ;
+  -o-transform:translate(-72%,0%) ;
+}
+
+main section .seçao-dois p {
+  transform:translate(-70%,0%);
+  -webkit-transform:translate(-70%,0%);
+  -moz-transform:translate(-70%,0%);
+  -ms-transform:translate(-70%,0%);
+  -o-transform:translate(-70%,0%);
+}
+main section .seçao-três img{
+  max-width: 32rem;
+  max-height: 20rem;
+  transform:translate(-48%,0%);
+  -webkit-transform:translate(-48%,0%);
+  -moz-transform:translate(-48%,0%);
+  -ms-transform:translate(-48%,0%);
+  -o-transform:translate(-48%,0%);
+}
+main section .seçao-três h1{
+  transform:translate(-103%,0%);
+  -webkit-transform:translate(-103%,0%);
+  -moz-transform:translate(-103%,0%);
+  -ms-transform:translate(-103%,0%);
+  -o-transform:translate(-103%,0%);
+}
+main section .seçao-três p{
+  transform:translate(-97%,0%);
+  -webkit-transform:translate(-97%,0%);
+  -moz-transform:translate(-97%,0%);
+  -ms-transform:translate(-97%,0%);
+  -o-transform:translate(-97%,0%);
+}
+
+footer figure img{
+  max-width: 15rem;
+  position:absolute;
+  left:25rem;
+}
+
+}
+@media screen and (min-width:1000px)  and (max-width:1024px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
     max-height:98vh;
   }
 
@@ -215,18 +311,18 @@ main section .seçao-três img{
   -o-transform:translate(-45%,0%);
 }
 main section .seçao-três h1{
-  transform:translate(-100%,0%);
-  -webkit-transform:translate(-100%,0%);
-  -moz-transform:translate(-100%,0%);
-  -ms-transform:translate(-100%,0%);
-  -o-transform:translate(-100%,0%);
+  transform:translate(-80%,0%);
+  -webkit-transform:translate(-80%,0%);
+  -moz-transform:translate(-80%,0%);
+  -ms-transform:translate(-80%,0%);
+  -o-transform:translate(-80%,0%);
 }
 main section .seçao-três p{
-  transform:translate(-95%,0%);
-  -webkit-transform:translate(-95%,0%);
-  -moz-transform:translate(-95%,0%);
-  -ms-transform:translate(-95%,0%);
-  -o-transform:translate(-95%,0%);
+  transform:translate(-76%,0%);
+  -webkit-transform:translate(-76%,0%);
+  -moz-transform:translate(-76%,0%);
+  -ms-transform:translate(-76%,0%);
+  -o-transform:translate(-76%,0%);
 }
 
 footer figure img{
@@ -288,7 +384,6 @@ footer figure img{
     grid-column: 1;
     grid-row: 1/6;
     justify-self: center;
-    align-items: center;
     left: 3rem;
     
 }
@@ -525,7 +620,7 @@ main  section div.seçao-três  div.descricao-três h1{
   grid-column: 1;
   grid-row: 1;
   position: absolute;
-  margin-left: -30.8rem;
+  margin-left: -33rem;
   margin-top: 7rem;
 
 
@@ -539,7 +634,7 @@ main  section div.seçao-três  div.descricao-três p{
   grid-column: 1;
   grid-row: 1;
   position: absolute;
-  margin-left: -33.5rem;
+  margin-left: -35.5rem;
   margin-top: 4rem;
   max-width: 10px;
   min-width: 283px;
