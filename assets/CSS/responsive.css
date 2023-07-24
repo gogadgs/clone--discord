@@ -287,7 +287,8 @@ footer figure img{
     grid-area: header;
     grid-column: 1;
     grid-row: 1/6;
-    justify-self: start;
+    justify-self: center;
+    align-items: center;
     left: 3rem;
     
 }
@@ -538,10 +539,10 @@ main  section div.seçao-três  div.descricao-três p{
   grid-column: 1;
   grid-row: 1;
   position: absolute;
-  margin-left: -34.5rem;
+  margin-left: -33.5rem;
   margin-top: 4rem;
   max-width: 10px;
-  min-width: 260px;
+  min-width: 283px;
 
 }
 
@@ -579,7 +580,7 @@ main  section div.seçao-quatro  div.descricao-quatro h1{
   grid-row-start: 1;
   grid-row-end: 1;
   position: absolute;
-  margin-left: 2rem;
+  margin-left: 1rem;
   text-align: left;
   font-family: 'Luckiest Guy';
   min-width: 40rem;
@@ -596,7 +597,7 @@ main  section div.seçao-quatro  div.descricao-quatro p{
     grid-row: 3;
     position: relative;
     top: 4rem;
-    left: 2rem;
+    left: 1rem;
     right: 2;
     grid-row-end: 2;
     min-width: 85px;
