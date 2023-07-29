@@ -397,8 +397,8 @@ header .conteudo h1{
   grid-column: 1;
   margin-bottom: 1rem;
   grid-row: 1/2;
-  min-width:278px;
-  max-height: 64px;
+  max-width: 210px;
+  min-width: 260px;
   text-align-last: left;
   font-size: 3rem;
   text-align: self;
