@@ -572,7 +572,7 @@ main  section div.seçao-dois  div.descricao-dois h1{
   grid-column: 1;
   grid-row: 1;
   position: absolute;
-  left: 50%;
+  left: 48%;
     margin-top: 7rem;
     margin-left: 5rem;
 }
@@ -584,7 +584,7 @@ main  section div.seçao-dois  div.descricao-dois p{
   grid-area: "main section two";
   grid-column: 1;
   grid-row: 1;
-  left: 50%;
+  left: 48%;
   margin-left: 1rem;
   min-width: 37px;
   max-width: 251px;
