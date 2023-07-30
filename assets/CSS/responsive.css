@@ -393,7 +393,7 @@ footer figure img{
 header .conteudo h1{
   grid-area:header;
   position:absolute !important;
-  right:0px;
+  right:6px;
   grid-column: 1;
   grid-row: 1/2;
   max-width: 210px;
@@ -401,6 +401,7 @@ header .conteudo h1{
   text-align-last: left;
   font-size: 3rem;
   text-align: self;
+  top:-2rem;
   
 }
 header div.conteudo p{
@@ -410,7 +411,7 @@ header div.conteudo p{
   grid-row: 1/12;
   right: 14px;
   text-align: left;
-  top: 5rem;
+  top: 6rem;
   position: absolute;
   max-height: 132px;
   justify-self: self-start;
@@ -445,7 +446,7 @@ header .conteudo div.conteudo-botao{
   grid-row: 6/12;
   align-items: center;
   justify-content: center;
-  margin-top: 8rem;
+  margin-top: 6rem;
   position: relative;
   left: 18px;
  
@@ -466,11 +467,11 @@ main  section div.seçao-um{
   grid-area:"main section one";
   grid-column: 1;
   grid-row: 1;
-  grid-template-columns: 1fr;
+ 
   grid-template-rows: 200px 150px 100px;
   align-self: center;
   min-width: 100%;
-  left: 0;
+ right:-2rem;
 }
 main section div.seçao-um img{
   position: absolute;
@@ -535,19 +536,21 @@ main  section div.seçao-dois{
   grid-row: 1;
   grid-template-columns: 1fr;
   grid-template-rows: 200px 150px 100px;
-  align-self: center;
+  place-content: center;
+  place-items: center;
 }
 main  section div.seçao-dois  img{
   position: relative;
   display: grid;
   min-width: 10px;
   max-height: 164px;
-  margin: 0;
-  left: 9rem;
+  left: 20%;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
   grid-row-end: 1;
+  margin-left:13rem;
+  margin-top:1rem;
 
 }
 main  section div.seçao-dois  div.descricao-dois{
@@ -558,6 +561,7 @@ main  section div.seçao-dois  div.descricao-dois{
   grid-template-columns: 1fr;
   grid-template-rows:100px 100px;
   min-width: 1rem;
+ 
 }
 main  section div.seçao-dois  div.descricao-dois h1{
   font-size: 24px;
@@ -568,8 +572,9 @@ main  section div.seçao-dois  div.descricao-dois h1{
   grid-column: 1;
   grid-row: 1;
   position: absolute;
-  margin-left: -2rem;
-  margin-top: 7rem;
+  left: 50%;
+    margin-top: 7rem;
+    margin-left: 5rem;
 }
 main  section div.seçao-dois  div.descricao-dois p{
   font-size: 14px;
@@ -579,11 +584,12 @@ main  section div.seçao-dois  div.descricao-dois p{
   grid-area: "main section two";
   grid-column: 1;
   grid-row: 1;
-  left: -27.5rem;
+  left: 50%;
+  margin-left: 1rem;
   min-width: 37px;
   max-width: 251px;
   position: absolute;
-  margin-left: 40rem;
+
   margin-top: 4rem;
 }
 main section div.seçao-três{
@@ -591,10 +597,10 @@ main section div.seçao-três{
   grid-area:"main section three";
   grid-column: 1;
   grid-row: 1;
-  grid-template-columns: 1fr;
   grid-template-rows: 200px 150px 100px;
   align-self: center;
   min-width: 100%;
+  left:-12rem;
 
 
 }
@@ -644,7 +650,6 @@ main  section div.seçao-três  div.descricao-três p{
 
 main section div.seçao-quatro{
   display: grid;
-  grid-template-columns: 1fr;
   grid-template-rows: 300px 250px 200px;
   grid-area: "main section four";
   max-width: 100%;
@@ -676,7 +681,7 @@ main  section div.seçao-quatro  div.descricao-quatro h1{
   grid-row-start: 1;
   grid-row-end: 1;
   position: absolute;
-  margin-left: 1rem;
+  margin-left: 0;
   text-align: left;
   font-family: 'Luckiest Guy';
   min-width: 40rem;
@@ -693,7 +698,7 @@ main  section div.seçao-quatro  div.descricao-quatro p{
     grid-row: 3;
     position: relative;
     top: 4rem;
-    left: 1rem;
+    left: 0;
     right: 2;
     grid-row-end: 2;
     min-width: 85px;
@@ -705,7 +710,7 @@ main  section div.seçao-quatro  div.descricao-quatro p{
 main  section div.seçao-quatro img{
   position: absolute;
   display: grid;
-  max-width: 90% !important;
+  max-width: 100% !important;
   max-height: 300px !important;
   margin-left: 9rem;
   grid-column-start: 1;
@@ -713,7 +718,7 @@ main  section div.seçao-quatro img{
   grid-row-start: 3;
   grid-row-end: 3;
   bottom: 9rem !important;
-  left: -8rem !important;
+  left: -9rem !important;
 }
 
 footer{
