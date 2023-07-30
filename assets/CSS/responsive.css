@@ -395,7 +395,6 @@ header .conteudo h1{
   position:absolute !important;
   right:0px;
   grid-column: 1;
-  margin-bottom: 1rem;
   grid-row: 1/2;
   max-width: 210px;
   min-width: 260px;
@@ -504,6 +503,7 @@ main section div.seçao-um div.descricao-um h1{
   grid-column-start: 1;
   grid-row-start: 1;
   min-width: 300px;
+  max-width: 300px;
   left: 18rem;
   line-height: 30px;
   grid-row-end: 2;
